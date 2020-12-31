@@ -1,0 +1,165 @@
+@media all and (max-width: 1024px) {
+    .text-area, .design-area {
+        width: 45%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .top-menu ul li {
+        margin: 0 15px;
+    }
+    .top-menu ul li a img {
+        padding: 0 20px;
+    }
+    .text-area, .design-area {
+        width: 51%;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .welcome-text h2{
+        padding-top: 100px;
+    }
+    .social-icon {
+        padding: 100px 0 15px 0;
+    }
+    .getting-started {
+        padding: 50px 0 40px 0;
+    }
+    .mobile-area {
+        margin: 60px 0 -3px 0;
+    }
+    .phone-area img {
+        width: 250px;
+    }
+    .text-area, .design-area {
+        width: 55%;
+    }
+    .community-area {
+        padding: 50px 0 60px 0;
+    }
+    .subscribe-area {
+        padding: 200px 0 160px 0;
+    }
+    .download-area p {
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    body {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+    h5 {
+        font-size: 11px;
+    }
+    .top-menu ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .top-menu ul li a img {
+        padding: 5px 0;
+        width: 40px;
+    }
+    .social-icon {
+        padding: 20px 0 10px 0;
+    }
+    .getting-started {
+        padding: 30px 0 20px 0;
+    }
+    .text-area {
+        width: 95%;
+    }
+    .text-area p {
+        margin: 20px 0 20px 0;
+    }
+    .mobile-area {
+        margin: 30px 0 -3px 0;
+    }
+    .phone-area {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .phone-area img {
+        width: 150px;
+    }
+    .design-area {
+        width: 95%;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .design-area p{
+        margin: 20px 0 20px 0;
+    }
+    .slide {
+        padding-top: 20px;
+    }
+    .community-area {
+        padding: 20px 0 30px 0;
+    }
+    .our-community .logo-green img {
+        width: 40px;
+        margin: 10px 0;
+    }
+    .our-community h3 {
+        font-size: 10px;
+    }
+    .our-community p {
+        font-size: 9px;
+    }
+    .subscribe-area {
+        padding: 70px 0 40px 0;
+    }
+    .subscribe-area h3 {
+        font-size: 14px;
+    }
+    .subscribe-area input[type="email"] {
+        padding: 11px 30px 10px 10px;
+    }
+    .subscribe-area button {
+        padding: 5px 10px 8px 10px;
+    }
+    .download-area {
+        padding: 30px 0 45px 0;
+    }
+    .download-area h3 {
+        font-size: 14px;
+    }
+    .download-area p {
+        font-size: 10px;
+    }
+    .download-area input[type="text"]{
+        padding: 11px 30px 10px 10px;
+    }
+    .download-area button {
+        padding: 5px 10px 8px 10px;
+    }
+    .download-area .apple {
+        margin-right: 0px;
+    }
+    .download-area .play-store {
+        margin: 15px 0 0 0;
+    }
+    .footer-area .fa-left {
+        width: 80%;
+    }
+    .footer-area .fa-right {
+        width: 20%;
+    }
+    .footer-area .fa-right img {
+        width: 40px;
+    }
+}
+
+

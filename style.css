@@ -1,0 +1,434 @@
+@font-face {
+    font-family: "gothamRoundedBold";
+    src: url('fonts/gothamRoundedBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: "gothamRoundedBook";
+    src: url('fonts/gothamroundedbook.woff') format('woff');
+}
+
+
+/* #####  Common CSS Starts Here  ##### */
+
+body {
+    margin: 0;
+	font-family: "gothamRoundedBook";
+    font-size: 12px;
+    color: #373737;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+strong {
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: "gothamRoundedBold";
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+.btn {
+    color: #ffffff;
+    background: #16A086;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #1BBC9B;
+    transition: 0.5s;
+}
+
+/* #####  Common CSS Ends Here  ##### */
+
+/* #####  Header Area Starts Here  ##### */
+
+
+.header-area {
+    color: #ffffff;
+    background: url('img/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header-area a {
+    color: #ffffff;
+}
+
+.top-menu {
+    padding-top: 35px;
+}
+
+.top-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu ul li {
+    display: inline-block;
+    margin: 0 22px;
+}
+
+.top-menu ul li a {
+    font-size: 13px;
+    font-family: "gothamRoundedBold";
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+.top-menu ul li:hover a {
+    border-bottom: 1px solid #ffffff;
+}
+
+.top-menu ul li a img {
+    width: 45px;
+    padding: 0 50px;
+}
+
+.top-menu ul .logo a:hover {
+    border: none;
+}
+
+.welcome-text h2 {
+    padding-top: 200px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.welcome-text h5 {
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin: 10px 0 25px 0;
+}
+
+.social-icon {
+    padding: 200px 0 15px 0;
+}
+
+.social-icon ul {
+    list-style: none;
+    margin: 0;
+}
+
+.social-icon ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.social-icon ul li a {
+    font-size: 22px;
+}
+
+.social-icon ul li:hover a {
+    color: #999999;
+    transition: 0.5s;
+}
+
+/* #####  Header Area Ends Here  ##### */
+
+
+/* #####  Getting Started Area Starts Here  ##### */
+
+.getting-started {
+    background: url('img/hand-bg.png') no-repeat 0 0 / 100% 100%;
+    padding: 100px 0 80px 0;
+}
+
+.text-area {
+    width: 40%;
+}
+
+.text-area h3 {
+    color: #16A086;
+}
+
+.text-area p {
+    color: #666666;
+    margin: 40px 0 40px 0;
+    word-spacing: 3px;
+    line-height: 1.5em;
+}
+
+/* #####  Getting Started Area Ends Here  ##### */
+
+
+/* #####  Mobile Area Starts Here  ##### */
+
+.mobile-area {
+    margin: 130px 0 -3px 0;
+    overflow: hidden;
+}
+
+.phone-area {
+    width: 40%;
+    float: left;
+}
+
+.phone-area img {
+    width: 300px;
+}
+
+.design-area {
+    width: 40%;
+    float: right;
+}
+
+.design-area h3 {
+    color: #16A086;
+}
+
+.design-area p {
+    margin: 40px 0 40px 0;
+    color: #666666;
+    word-spacing: 3px;
+    line-height: 1.5em;
+}
+
+.slide {
+    padding-top: 40px;
+    color: #000000;
+}
+
+.arrow a i {
+	color: #333333;
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+/* #####  Mobile Area Ends Here  ##### */
+
+
+/* #####  Community Area Starts Here  ##### */
+
+.community-area {
+    overflow: hidden;
+    padding: 90px 0 100px 0;
+    background-color: #F5F6F8;
+}
+
+.community-area .arrow {
+    text-align: right;
+}
+
+.column {
+    width: 31.33%;
+    float: left;
+    margin: 0 1%;
+}
+
+.our-community {
+    padding-top: 3px;
+    overflow: hidden;
+}
+
+.our-community .logo-green {
+    text-align: center;
+}
+
+.our-community .logo-green img {
+    width: 50px;
+    margin: 20px 0;
+}
+
+/* #####  Community Area Ends Here  ##### */
+
+/* #####  Subscribe Area Starts Here  ##### */
+
+.subscribe-area {
+	background: url('img/subscribe-bg.jpg') no-repeat 0 0 / 100% 100%;
+    padding: 300px 0 280px 0;
+    text-align: center;
+}
+
+.subscribe-area h3 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.subscribe-area form {
+	padding-top: 35px;
+}
+
+.subscribe-area input[type="email"] {
+    padding: 20px 60px 20px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none; 
+    border-radius: 3px 0 0 3px;
+    letter-spacing: 2px;
+}
+
+.subscribe-area button {
+	background: #16A086;
+	color: #FFFFFF;
+	border: none; 
+	border-radius: 0 3px 3px 0;
+    padding: 14px 20px 18px 20px;
+    margin-left: -4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* #####  Subscribe Area Ends Here  ##### */
+
+
+/* #####  Download Area Starts Here  ##### */
+
+.download-area {
+    padding: 75px 0 100px 0;
+    text-align: center;
+    background-color: #F5F6F8;
+}
+
+.download-area h3 {
+    font-size: 18px;
+}
+
+.download-area p {
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+}
+
+.download-area input[type="text"] {
+    color: #ffffff;
+    background-color: #1BBC9B;
+	padding: 20px 40px 20px 20px;
+	text-transform: uppercase;
+    font-weight: bold;
+	border: none; 
+    border-radius: 3px 0 0 3px;
+    letter-spacing: 2px;
+}
+
+.download-area button {
+	background: #16A086;
+	color: #ffffff;
+	border: none; 
+	border-radius: 0 3px 3px 0;
+    padding: 14px 20px 18px 20px;
+    margin-left: -4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.download-area input[type="text"]::placeholder {
+    color: #ffffff;
+}
+
+.download-area .apple{
+    margin-right: 10px;
+} 
+.download-area .play-store {
+    margin-left: 10px;
+} 
+
+/* #####  Download Area Ends Here  ##### */
+
+
+/* #####  Footer Area Starts Here  ##### */
+
+.footer-area {
+    padding: 30px 0;
+    overflow: hidden;
+    letter-spacing: 2px;
+}
+
+.footer-area .fa-left {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+.fa-left P {
+    font-weight: bold;
+    color: #000000;
+}
+
+.footer-menu ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+.footer-menu ul li::after {
+    position: absolute;
+    content: "";
+    background: #16A086;
+    top: 1px;
+    right: -8px;
+    height: 12px;
+    width: 1px;
+}
+
+.footer-menu ul li:last-child::after {
+    display: none;
+}
+
+.footer-menu ul li a {
+    display: block;
+    color: #373737;
+    text-transform: uppercase;
+    font-family: "gothamRoundedBold";
+}
+
+.footer-menu ul li:hover a {
+    color: #666666;
+}
+
+.footer-area .fa-right {
+    width: 30%;
+    float: right;
+}
+
+.footer-area .fa-right img {
+    width: 50px;
+    float: right;
+}
+
+/* #####  Footer Area Ends Here  ##### */
